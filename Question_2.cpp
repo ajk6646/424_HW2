@@ -38,8 +38,8 @@ int main()
     Robot robots[5] = { {1}, {2}, {3}, {4}, {5} };
     Tool tools[5] = { {'A'}, {'B'}, {'C'}, {'D'}, {'E'} };
 
-    executeTask(robots[0], tools[0], tools[1], robots[2]); 
-    executeTask(robots[1], tools[1], tools[2], robots[3]); 
+    executeTask(robots[0], tools[0], tools[2], robots[2]); 
+    executeTask(robots[1], tools[1], tools[3], robots[3]); 
     executeTask(robots[4], tools[4], tools[0], robots[0]); 
 
     return 0;
